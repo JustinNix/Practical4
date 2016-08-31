@@ -2,8 +2,8 @@ import random
 
 
 def main():
-    count = 0
-    number_range_count = 0
+    count = 0 # count for number of picks
+    number_range_count = 0 # count for making the range
     random_picks = []
     number_of_picks = int(input("how many quick picks do you want? \n >>>"))
     number_range = []
